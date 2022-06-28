@@ -1,0 +1,150 @@
+:root{
+    background-color: #555;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+#HUD-page{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    position: absolute;
+}
+#title{
+    position: absolute;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 1000;
+    font-family: cursive;
+    color: lime;
+    user-select: none;
+    top: 30px;
+    text-shadow: 0px 0px 10px lime;
+    -webkit-text-stroke: 3px black;
+    letter-spacing: 2rem;
+    animation: letterSpacing 2000ms linear infinite forwards;
+    overflow: hidden;
+    width: 1000px;
+    text-align: center;
+}
+@keyframes letterSpacing {
+    0%{
+        filter: hue-rotate(90deg);
+        letter-spacing: 0.5rem;
+    }
+    50%{
+        filter: hue-rotate(0deg);
+        letter-spacing: 2rem;
+    }
+    100%{
+        filter: hue-rotate(90deg);
+        letter-spacing: 0.5rem;
+    }
+}
+#title::before{
+    content: "MEMORY GAME";
+    position: absolute;
+    top: 60px;
+    animation: titleFlopping 5000ms linear infinite forwards;
+}
+@keyframes titleFlopping {
+    0%{
+        top: 100px;
+    }
+    25%{
+        top: 0px;
+    }
+    50%{
+        top: -100px;
+    }
+    75%{
+        top: 0px;
+    }
+    100%{
+        top: 100px;
+    }
+}
+#difficultyPart{
+    width: 1000px;
+}
+#diffucltySentence{
+    position: absolute;
+    top: 150px;
+    font-size: 60px;
+    width: 1000px;
+    margin: 0;
+    text-align: center;
+    font-weight: 1000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    user-select: none;
+    color: azure;
+    font-style: italic;
+    text-shadow: 0px 0px 5px beige;
+    animation: pulsing 1000ms linear infinite forwards;
+}
+@keyframes pulsing {
+    0%{
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    50%{
+        transform: scale(1);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1.1);
+        opacity: 1;
+    }
+}
+#difficulties{
+    position: absolute;
+    text-align:center;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+.difficulty{
+    user-select: none;
+    position: absolute;
+    background-color: yellow;
+    box-shadow: 0px 0px 10px 4px yellow;
+    text-shadow: 0px 0px 10px black;
+    height: 150px;
+    width: 150px;
+    font-family: cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    left: 425px;
+    transition: left 500ms linear 300ms;
+}
+.difficulty:hover{
+    color: aliceblue;
+    background-color: rgb(128, 128, 5);
+}
+#emptyBox{
+    cursor: pointer;
+    height: 180px;
+    width: 180px;
+    background-color:lawngreen;
+    box-shadow: 0px 0px 10px 4px lawngreen;
+    z-index: 1;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 300ms linear;
+    top: -15px;
+}
+#emptyBox:hover{
+    background: radial-gradient(green,rgb(4, 65, 4));
+}

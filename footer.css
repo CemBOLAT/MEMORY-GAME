@@ -1,0 +1,171 @@
+:root{
+    --lime: lime;
+}
+footer{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 1000;
+    font-family: cursive;
+    color:  burlywood;
+    text-shadow: 0px 0px 5px black;
+    top: 130vh;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    user-select: none;
+}
+#footer-container{
+    position: absolute;
+    margin-right: auto;
+    width: 800px;
+    margin-left: auto;
+}
+#footerPage{
+    position: absolute;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 150px;
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -5;
+}
+#myName{
+    display: flex;
+}
+#myName div{
+    font-size: 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 1000;
+    -webkit-text-stroke: 2px grey;
+    color: transparent;
+    animation-name: flowing;
+    animation-duration: 2000ms;
+    animation-delay: var(--delay);
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    user-select: none;
+    animation-iteration-count: infinite;
+}
+@keyframes flowing {
+    0%{
+        color: transparent;
+        text-shadow: 0px 0px 10px transparent;
+    }
+    25%{
+        color: var(--lime);
+        text-shadow: 0px 0px 10px var(--green);
+    }
+    50%{
+        color: transparent;
+        text-shadow: 0px 0px 10px transparent;
+    }
+    100%{
+        color: transparent;
+        text-shadow: 0px 0px 10px transparent;
+    }
+}
+#socialMediaBar{
+    width: 500px;
+    display: flex;
+    font-size: 50px;
+    justify-content: space-around;
+    color: white;
+    position: relative;
+}
+.button-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    color: white;
+}
+.button-container::after{
+    color: white;
+    content: " ";
+    position: absolute;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    left: -5px;
+    top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 200ms all linear;
+}
+.button-container::before{
+    width: 0px;
+    height: 0px;
+    content: " ";
+    position: absolute;
+    top: 65px;
+    opacity: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 10px solid white;
+}
+.button-container:hover::before{
+    opacity: 1;
+    top: -20px;
+}
+.button-container:hover::after{
+    opacity: 1;
+    top: -50px;
+}
+#linkedIn::after{
+    content: "LinkedIn";
+    left: 70px;
+    height: 100px;
+}
+#gitHub::after{
+    content: "GitHub";
+    left: 321px;
+    height: 100px;
+}
+#newGame{
+    background-color: transparent;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    border-radius: 20px;
+    font-weight: 800;
+    user-select: none;
+    border: 5px black solid;
+    cursor: pointer;
+    background: none;
+    transition: 200ms all linear;
+}
+#newGame:hover{
+    background: linear-gradient(45deg,red,blue);
+    box-shadow: 0px 0px 10px 5px black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#acc-part{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 0px 0px 5px blanchedalmond;
+    align-items: center;
+}
+#accuruteFooter{
+    font-size: 50px;
+    color: lime;
+    text-shadow: 0px 0px 10px lime;
+}

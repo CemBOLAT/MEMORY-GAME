@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="footer.css" type="text/css">
+    <link rel="stylesheet" href="HUD.css" type="text/css">
+    <link rel="stylesheet" href="game.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div id="HUD-page">
+            <div id="title">MEMORY GAME</div>
+            <div id="difficultyPart">
+                <div id="diffucltySentence">Select The DIFFICULTY</div>
+                <div id="difficulties">
+                    <div id="emptyBox"></div>
+                    <div class="difficulty">EASY</div>
+                    <div class="difficulty">NORMAL</div>
+                    <div class="difficulty">HARD</div>
+                    <div class="difficulty">EXPERT</div>
+                </div>
+            </div>
+        </div>
+        <div id="gamePage">
+            <div id="score-container">
+                <div id="accuracyBox">
+                    Attemps: &nbsp;
+                    <div id="correctAttempts">0</div>
+                    &nbsp;/&nbsp;
+                    <div id="totalAttempts">0</div>
+                </div>
+            </div>
+            <div id="board-container">
+            </div>
+        </div>
+        <div id="footerPage">
+            <div id="acc-part">
+                CONGRATULATIONS!
+                YOUR ACCURACY IS&nbsp;<div id="accuruteFooter">3232s</div>
+            </div>
+            <div id="myName">
+                <div style="--delay:2000ms">C</div>
+                <div style="--delay:2200ms">E</div>
+                <div style="--delay:2400ms">M</div>
+                <div style="--delay:2600ms">A</div>
+                <div style="--delay:2800ms">L</div>
+                <div>&nbsp;</div>
+                <div style="--delay:3000ms">B</div>
+                <div style="--delay:3200ms">O</div>
+                <div style="--delay:3400ms">L</div>
+                <div style="--delay:3600ms">A</div>
+                <div style="--delay:3800ms">T</div>
+            </div>
+            <div id="socialMediaBar">
+                <a target="_blank" href="https://www.linkedin.com/in/cemal-bolat-a5188721b/"> 
+                    <div id="linkedIn" class="button-container">                   
+                        <div class="button">
+                            <ion-icon name="logo-linkedIn"></ion-icon>
+                        </div>
+                    </div>
+                </a>
+                <a target="_blank" href="https://github.com/CemBOLAT/CemBOLAT"> 
+                    <div id="gitHub" class="button-container">
+                        <div class="button">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <a href="index.html">
+                <div id="newGame">
+                    <div>NEW GAME</div>
+                </div>
+            </a>
+        </div>
+        <footer><div id="footer-container">&copy;CEMAL BOLAT</div></footer>
+    </div>
+    <script src="./app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
