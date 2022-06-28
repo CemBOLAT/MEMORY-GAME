@@ -8,139 +8,139 @@ const accuruteFooter= document.querySelector("#accuruteFooter")
 const colorArr = [
     {
         name:"1",
-        img: "/images/blue.jpg"
+        img: "./images/blue.jpg"
     },
     {
         name:"2",
-        img: "/images/orange.jpeg"
+        img: "./images/orange.jpeg"
     },
     {
         name:"3",
-        img: "/images/pink.jpeg"
+        img: "./images/pink.jpeg"
     },
     {
         name:"4",
-        img: "/images/green.jpeg"
+        img: "./images/green.jpeg"
     },
     {
         name:"1",
-        img: "/images/blue.jpg"
+        img: "./images/blue.jpg"
     },
     {
         name:"2",
-        img: "/images/orange.jpeg"
+        img: "./images/orange.jpeg"
     },
     {
         name:"3",
-        img: "/images/pink.jpeg"
+        img: "./images/pink.jpeg"
     },
     {
         name:"4",
-        img: "/images/green.jpeg"
+        img: "./images/green.jpeg"
     },
 ]
 const animalArr = [
     {
         name:"1",
-        img: "/images/dog.jpeg"
+        img: "./images/dog.jpeg"
     },
     {
         name:"2",
-        img: "/images/frog.jpeg"
+        img: "./images/frog.jpeg"
     },
     {
         name:"3",
-        img: "/images/giraffe.jpeg"
+        img: "./images/giraffe.jpeg"
     },
     {
         name:"4",
-        img: "/images/mamut.jpg"
+        img: "./images/mamut.jpg"
     },
     {
         name:"5",
-        img: "/images/panda.jpeg"
+        img: "./images/panda.jpeg"
     },
     {
         name:"6",
-        img: "/images/tembel.jpg"
+        img: "./images/tembel.jpg"
     },
     {
         name:"7",
-        img: "/images/tiger.jpg"
+        img: "./images/tiger.jpg"
     },
     {
         name:"8",
-        img: "/images/cat.jpg"
+        img: "./images/cat.jpg"
     }, 
     {
         name:"1",
-        img: "/images/dog.jpeg"
+        img: "./images/dog.jpeg"
     },
     {
         name:"2",
-        img: "/images/frog.jpeg"
+        img: "./images/frog.jpeg"
     },
     {
         name:"3",
-        img: "/images/giraffe.jpeg"
+        img: "./images/giraffe.jpeg"
     },
     {
         name:"4",
-        img: "/images/mamut.jpg"
+        img: "./images/mamut.jpg"
     },
     {
         name:"5",
-        img: "/images/panda.jpeg"
+        img: "./images/panda.jpeg"
     },
     {
         name:"6",
-        img: "/images/tembel.jpg"
+        img: "./images/tembel.jpg"
     },
     {
         name:"7",
-        img: "/images/tiger.jpg"
+        img: "./images/tiger.jpg"
     },
     {
         name:"8",
-        img: "/images/cat.jpg"
+        img: "./images/cat.jpg"
     },
 ]
 const mineSweeperArr = [
     {
         name:"1",
-        img: "/images/1.png"
+        img: "./images/1.png"
     },
     {
         name:"2",
-        img: "/images/2.png"
+        img: "./images/2.png"
     },
     {
         name:"3",
-        img: "/images/3.png"
+        img: "./images/3.png"
     },
     {
         name:"4",
-        img: "/images/4.png"
+        img: "./images/4.png"
     },
     {
         name:"5",
-        img: "/images/5.png"
+        img: "./images/5.png"
     },
     {
         name:"6",
-        img: "/images/6.png"
+        img: "./images/6.png"
     },
     {
         name:"7",
-        img: "/images/7.png"
+        img: "./images/7.png"
     },
     {
         name:"8",
-        img: "/images/8.png"
+        img: "./images/8.png"
     },
     {
         name: "9",
-        img: "/images/flag.jpeg"
+        img: "./images/flag.jpeg"
     },
     {
         name: "10",
@@ -148,63 +148,63 @@ const mineSweeperArr = [
     },
     {
         name:"11",
-        img: "/images/blue.jpg"
+        img: "./images/blue.jpg"
     },
     {
         name:"12",
-        img: "/images/orange.jpeg"
+        img: "./images/orange.jpeg"
     },
     {
         name:"13",
-        img: "/images/pink.jpeg"
+        img: "./images/pink.jpeg"
     },
     {
         name:"14",
-        img: "/images/green.jpeg"
+        img: "./images/green.jpeg"
     },
     {
         name:"15",
-        img: "/images/started-board.png"
+        img: "./images/started-board.png"
     },
     {
         name:"16",
-        img: "/images/end-board.png"
+        img: "./images/end-board.png"
     },
     {
         name:"1",
-        img: "/images/1.png"
+        img: "./images/1.png"
     },
     {
         name:"2",
-        img: "/images/2.png"
+        img: "./images/2.png"
     },
     {
         name:"3",
-        img: "/images/3.png"
+        img: "./images/3.png"
     },
     {
         name:"4",
-        img: "/images/4.png"
+        img: "./images/4.png"
     },
     {
         name:"5",
-        img: "/images/5.png"
+        img: "./images/5.png"
     },
     {
         name:"6",
-        img: "/images/6.png"
+        img: "./images/6.png"
     },
     {
         name:"7",
-        img: "/images/7.png"
+        img: "./images/7.png"
     },
     {
         name:"8",
-        img: "/images/8.png"
+        img: "./images/8.png"
     },
     {
         name: "9",
-        img: "/images/flag.jpeg"
+        img: "./images/flag.jpeg"
     },
     {
         name: "10",
@@ -212,65 +212,65 @@ const mineSweeperArr = [
     },
     {
         name:"11",
-        img: "/images/blue.jpg"
+        img: "./images/blue.jpg"
     },
     {
         name:"12",
-        img: "/images/orange.jpeg"
+        img: "./images/orange.jpeg"
     },
     {
         name:"13",
-        img: "/images/pink.jpeg"
+        img: "./images/pink.jpeg"
     },
     {
         name:"14",
-        img: "/images/green.jpeg"
+        img: "./images/green.jpeg"
     },
     {
         name:"15",
-        img: "/images/started-board.png"
+        img: "./images/started-board.png"
     },
     {
         name:"16",
-        img: "/images/end-board.png"
+        img: "./images/end-board.png"
     },
 ]
 const mixedArr = [
     {
         name:"1",
-        img: "/images/1.png"
+        img: "./images/1.png"
     },
     {
         name:"2",
-        img: "/images/2.png"
+        img: "./images/2.png"
     },
     {
         name:"3",
-        img: "/images/3.png"
+        img: "./images/3.png"
     },
     {
         name:"4",
-        img: "/images/4.png"
+        img: "./images/4.png"
     },
     {
         name:"5",
-        img: "/images/5.png"
+        img: "./images/5.png"
     },
     {
         name:"6",
-        img: "/images/6.png"
+        img: "./images/6.png"
     },
     {
         name:"7",
-        img: "/images/7.png"
+        img: "./images/7.png"
     },
     {
         name:"8",
-        img: "/images/8.png"
+        img: "./images/8.png"
     },
     {
         name: "9",
-        img: "/images/flag.jpeg"
+        img: "./images/flag.jpeg"
     },
     {
         name: "10",
@@ -278,95 +278,95 @@ const mixedArr = [
     },
     {
         name:"11",
-        img: "/images/blue.jpg"
+        img: "./images/blue.jpg"
     },
     {
         name:"12",
-        img: "/images/orange.jpeg"
+        img: "./images/orange.jpeg"
     },
     {
         name:"13",
-        img: "/images/pink.jpeg"
+        img: "./images/pink.jpeg"
     },
     {
         name:"14",
-        img: "/images/green.jpeg"
+        img: "./images/green.jpeg"
     },
     {
         name:"15",
-        img: "/images/started-board.png"
+        img: "./images/started-board.png"
     },
     {
         name:"16",
-        img: "/images/end-board.png"
+        img: "./images/end-board.png"
     },
     {
         name:"17",
-        img: "/images/dog.jpeg"
+        img: "./images/dog.jpeg"
     },
     {
         name:"18",
-        img: "/images/frog.jpeg"
+        img: "./images/frog.jpeg"
     },
     {
         name:"19",
-        img: "/images/giraffe.jpeg"
+        img: "./images/giraffe.jpeg"
     },
     {
         name:"20",
-        img: "/images/mamut.jpg"
+        img: "./images/mamut.jpg"
     },
     {
         name:"21",
-        img: "/images/panda.jpeg"
+        img: "./images/panda.jpeg"
     },
     {
         name:"22",
-        img: "/images/tembel.jpg"
+        img: "./images/tembel.jpg"
     },
     {
         name:"23",
-        img: "/images/tiger.jpg"
+        img: "./images/tiger.jpg"
     },
     {
         name:"24",
-        img: "/images/cat.jpg"
+        img: "./images/cat.jpg"
     }, 
     {
         name:"1",
-        img: "/images/1.png"
+        img: "./images/1.png"
     },
     {
         name:"2",
-        img: "/images/2.png"
+        img: "./images/2.png"
     },
     {
         name:"3",
-        img: "/images/3.png"
+        img: "./images/3.png"
     },
     {
         name:"4",
-        img: "/images/4.png"
+        img: "./images/4.png"
     },
     {
         name:"5",
-        img: "/images/5.png"
+        img: "./images/5.png"
     },
     {
         name:"6",
-        img: "/images/6.png"
+        img: "./images/6.png"
     },
     {
         name:"7",
-        img: "/images/7.png"
+        img: "./images/7.png"
     },
     {
         name:"8",
-        img: "/images/8.png"
+        img: "./images/8.png"
     },
     {
         name: "9",
-        img: "/images/flag.jpeg"
+        img: "./images/flag.jpeg"
     },
     {
         name: "10",
@@ -374,59 +374,59 @@ const mixedArr = [
     },
     {
         name:"11",
-        img: "/images/blue.jpg"
+        img: "./images/blue.jpg"
     },
     {
         name:"12",
-        img: "/images/orange.jpeg"
+        img: "./images/orange.jpeg"
     },
     {
         name:"13",
-        img: "/images/pink.jpeg"
+        img: "./images/pink.jpeg"
     },
     {
         name:"14",
-        img: "/images/green.jpeg"
+        img: "./images/green.jpeg"
     },
     {
         name:"15",
-        img: "/images/started-board.png"
+        img: "./images/started-board.png"
     },
     {
         name:"16",
-        img: "/images/end-board.png"
+        img: "./images/end-board.png"
     },
     {
         name:"17",
-        img: "/images/dog.jpeg"
+        img: "./images/dog.jpeg"
     },
     {
         name:"18",
-        img: "/images/frog.jpeg"
+        img: "./images/frog.jpeg"
     },
     {
         name:"19",
-        img: "/images/giraffe.jpeg"
+        img: "./images/giraffe.jpeg"
     },
     {
         name:"20",
-        img: "/images/mamut.jpg"
+        img: "./images/mamut.jpg"
     },
     {
         name:"21",
-        img: "/images/panda.jpeg"
+        img: "./images/panda.jpeg"
     },
     {
         name:"22",
-        img: "/images/tembel.jpg"
+        img: "./images/tembel.jpg"
     },
     {
         name:"23",
-        img: "/images/tiger.jpg"
+        img: "./images/tiger.jpg"
     },
     {
         name:"24",
-        img: "/images/cat.jpg"
+        img: "./images/cat.jpg"
     }, 
 ]
 const correctAttemptsDisplay = document.querySelector("#correctAttempts")
